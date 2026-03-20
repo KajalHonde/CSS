@@ -19,11 +19,38 @@ h1{
     text-transform: lowercase;
 }
 
-h1{
+.t_transform_upper{
     text-transform: uppercase;
 }
 
-h1{
-    text-transform: none;
+.t_transform_lower{
+    text-transform: lowercase;
 }
 
+.t_capitalise{
+    text-transform:capitalize;
+}
+
+.t_decoration{
+    text-decoration: line-through;
+}
+
+.t_decoration{
+     text-decoration: underline;
+}
+
+.t_indentt{
+    text-indent: 10px;
+}
+
+.t_line_height{
+    line-height: 40px;
+}
+
+.t_letter_spacing{
+    letter-spacing: 5px;
+}
+
+.t_word_spacing{
+    word-spacing: 50px;
+}
