@@ -24,10 +24,46 @@
             margin: 20px;
             background: linear-gradient(red,yellow,skyblue);
         }
+        h2:active{
+          color: lime;
+          font-size: 60px;
+          cursor: pointer;
+        }
+
+        a:visited{
+            color:orange;
+        }
+
+        input:focus{
+            background-color: black;
+            color: aliceblue;
+            border: 4px solid yellowgreen;
+        }
+
+        p::first-letter{
+            color: chartreuse;
+        }
+        p::first-line{
+            color: yellow;
+        }
+
+        p::selection{
+            color: brown;
+            background-color: chocolate;
+        }
+
     </style>
 </head>
 <body>
+    <input type="text" placeholder="enter name">
+
+    <a href="https://www.facebook.com">Click Here</a>
+    <a href="https://www.vecteezy.com/free-vector/construction-site">click here</a>
+
     <h1>Kajal</h1>
+
+    <h2> Komal</h2>
+    
     <p class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, labore? Molestias eaque repudiandae cum neque dolore, quos natus, iure nulla iusto praesentium commodi non aliquid enim fugit a? Eaque, voluptatem?</p>
 </body>
 </html>
