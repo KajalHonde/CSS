@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .big{
+        height: 200px;
+        width: 200px;
+        box-shadow: 5px 5px 5px 5px color(green);
+      } 
+
+      @media only screen and(min-width:320px) and (max-width: 754){
+        body{
+            background-color: blueviolet;
+        }
+        p{
+            display: none;
+        }
+        h1{
+            font-size: 10px;
+            color: azure;
+            text-shadow: 3px 4px 5px red;
+        }
+      }
+      @media(min-width: 768px){
+        body{
+            background-color: green;
+        }
+        h1{
+            color: aqua;
+            font-size: 40px;
+        }
+      }
+
+      @media (min-width: 1024px){
+        body{
+            background-color: yellow;
+        }
+      h1{
+        color: black;
+        font-size: 100px;
+      }
+    }
+      @media (min-width: 1224px) {
+        body{
+            background-color: orange;
+        }
+      }
+
+      @media (min-width: 1824px) {
+        body {
+            background-color: aqua;
+        }
+      }
+
+      @media (min-width: 850px) and (max-width: 950px){
+        body{
+            background-color: purple;
+        }
+      }
+      h1,h3{
+        color: white;
+      }
+
+    </style>
+</head>
+<body>
+    <img class="big" src="C:\Github_Projects\CSS\images\gandhiji1.jpg">
+    <h1>CSS Media Queries</h1>
+    <p>The background will change according to the viewport width change.</p>
+
+    <h3>Smartphones-<span class="details">from 320px and up</span></h3>
+    <p>Blue</p>
+    <br>
+
+    <h3>Tables, ipads(portrait)- <span class="details">from 768px and</span></h3>
+    <p>Green</p>
+    <br>
+    
+    <h3>Tables, ipads(landscape)- <span class="details">from 1024px</span></h3>
+    <p>Yellow</p>
+    <br>
+</body>
+</html>
