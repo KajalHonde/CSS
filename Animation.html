@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: darkorange;
+            position: relative;
+            animation-name: MovingBox;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-direction: alternate;
+        }
+            @keyframes MovingBox {
+                0%{background-image: url('C:\Github_Projects\CSS\images\ganesha.png');}
+                25%{background-color: darkgreen;left: 30px;top: 0px;background: url(C:\Github_Projects\CSS\images\gudipadwa.png);}
+                50%{background-color: dodgerblue;left: 300px;top: 300px;background-image: url(C:\Github_Projects\CSS\images\kanha.avif);}
+                75%{left:0px;top: 30px;background-image: url(C:\Github_Projects\CSS\images\orange.png);}
+                100%{background-color: hotpink;left:0px;top: 30px;}
+            }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
